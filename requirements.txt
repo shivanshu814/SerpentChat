@@ -1,0 +1,6 @@
+os
+sys
+flask
+python-dotenv
+openai
+pyqt5
