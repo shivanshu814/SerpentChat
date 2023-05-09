@@ -1,0 +1,19 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SerpentChat</title>
+	</head>
+	<body>
+		<h1>SerpentChat</h1>
+		<form method="post">
+			<label for="message">Message:</label><br />
+			<textarea id="message" name="message"></textarea><br />
+			<input type="submit" value="Submit" />
+		</form>
+		{% if response %}
+		<p>Response: {{ response }}</p>
+		{% endif %}
+	</body>
+</html>
