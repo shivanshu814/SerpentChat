@@ -1,7 +1,9 @@
-### SerpentChat
+## SerpentChat
 SerpentChat is a simple chatbot built using the OpenAI GPT-3.5 API. It can hold a conversation with the user on a wide range of topics.
+*** 
 
-### Installation
+## Installation
+
 To install and run SerpentChat, follow these steps:
 
 Clone the repository to your local machine.
@@ -21,13 +23,18 @@ If you do not have an API key, sign up for the OpenAI API at https://beta.openai
 Start the application by running the following command:
 
 `python SerpentChat.py`
+
 Open your web browser and go to http://localhost:5000. You should now be able to use the chatbot.
 
-### Usage
+***
+
+## Usage
 
 Type in your message in the "Message" input field.
 Click on the "Submit" button to send your message to the chatbot.
 The chatbot will generate a response, which will be displayed in the "Response" output field.
 
-### License
+***
+
+## License
 This project is licensed under the MIT License. Feel free to use and modify this project for your own purposes.
